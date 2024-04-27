@@ -1,0 +1,31 @@
+{
+  "name": "daily-diet-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "db:studio": "drizzle-kit studio",
+    "start": "tsx watch src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.10",
+    "drizzle-kit": "^0.20.17",
+    "eslint": "^9.1.1",
+    "tsx": "^4.7.3",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@fastify/cookie": "^9.3.1",
+    "@libsql/client": "^0.6.0",
+    "@neondatabase/serverless": "^0.9.1",
+    "better-sqlite3": "^9.6.0",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.30.9",
+    "fastify": "^4.26.2",
+    "uuid": "^9.0.1",
+    "zod": "^3.23.4"
+  }
+}
